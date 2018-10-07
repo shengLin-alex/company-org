@@ -42,7 +42,7 @@ impl Company {
     }
 
     /// Deserialize json string to Company.
-    pub fn to_company(encoded: &String) -> Company {
+    pub fn serialize_to_company(encoded: &String) -> Company {
         json::decode(encoded).unwrap()
     }
 }

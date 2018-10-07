@@ -28,7 +28,7 @@ fn main() {
     });
 
     let company_string = company.to_json();
-    let company_decode = company::Company::to_company(&company_string);
+    let company_decode = company::Company::serialize_to_company(&company_string);
 
     println!("{:?}", company_decode);
 }
