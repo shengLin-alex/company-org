@@ -1,3 +1,5 @@
+#![feature(rustc_private)]
+
 mod company;
 
 fn main() {

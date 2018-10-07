@@ -1,5 +1,3 @@
-#![feature(rustc_private)]
-
 // use extern crate
 extern crate rustc_serialize;
 
